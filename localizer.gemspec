@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/localizer.rb",
+    "localizer.gemspec",
     "spec/database.yml",
     "spec/db/test.sqlite3",
     "spec/localizer_spec.rb",
