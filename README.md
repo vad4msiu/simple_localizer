@@ -34,7 +34,7 @@ puts product.name_en # => d
 
 I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
 I18n.fallbacks[:ru] = [:ru, :en, :fr]
-product = Product.create! :name_fr => 'asd', :name_ru => nil, :name_en => nil
+product = Product.create! :name_fr => 'd', :name_ru => nil, :name_en => nil
 puts product.name_ru # => d
 ```
 
