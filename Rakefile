@@ -13,8 +13,8 @@ require 'rake'
 
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
-  gem.name = "localizer"
-  gem.homepage = "https://github.com/vad4msiu/localizer.git"
+  gem.name = "simple_localizer"
+  gem.homepage = "https://github.com/vad4msiu/simple_localizer.git"
   gem.license = "MIT"
   gem.summary = %Q{Simple localization your ActiveRecord fields without magic}
   gem.description = %Q{Simple localization your ActiveRecord fields without magic}

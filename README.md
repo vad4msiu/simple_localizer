@@ -1,4 +1,4 @@
-# Localizer
+# Simple Localizer
 
 Simple localization your ActiveRecord fields without magic.
 
@@ -7,7 +7,7 @@ Simple localization your ActiveRecord fields without magic.
 ```ruby
 source 'https://rubygems.org'
 
-gem 'simple-localizer'
+gem 'simple_localizer'
 ```
 
 ## Model translations
@@ -31,6 +31,11 @@ I18n.default_locale = :en
 product = Product.create! :name => 'd'
 puts product.name # => d
 puts product.name_en # => d
+
+I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
+I18n.fallbacks[:ru] = [:ru, :en, :fr]
+product = Product.create! :name_fr => 'asd', :name_ru => nil, :name_en => nil
+puts product.name_ru # => d
 ```
 
 ## Supported locales
