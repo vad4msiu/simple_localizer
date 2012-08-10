@@ -3,7 +3,7 @@
 require "active_record"
 
 module SimpleLocalizer
-  SUPPORTED_LOCALES = %w(
+  @@supported_locales = %w(
     aa ab ae af al am ar as ay az
     ba be bg bh bi bn bo bp br ca
     cf ch co cs cy de dr dt dz ef
@@ -41,7 +41,7 @@ module SimpleLocalizer
 
       translated_attribute_names.each do |attr|
         define_method attr do
-          locale = SimpleLocalizer.read_locale || I18n.default_locale.to_s
+          locale = SimpleLocalizer.read_locale
           send("#{attr}_#{locale}")
         end
 
@@ -50,7 +50,7 @@ module SimpleLocalizer
           send("#{attr}_#{locale}=", value)
         end
 
-        SimpleLocalizer::SUPPORTED_LOCALES.each do |locale|
+        SimpleLocalizer.supported_locales.each do |locale|
           define_method "#{attr}_#{locale}" do
             translation = translations.detect { |translation|
               translation.locale == locale
@@ -80,9 +80,17 @@ module SimpleLocalizer
 
   module_function
 
+  def supported_locales
+    @@supported_locales
+  end
+
+  def supported_locales=(value)
+    @@supported_locales = value
+  end
+
   def with_locale(new_locale, &block)
     begin
-      pre_locale = read_locale
+      pre_locale = Thread.current[:simple_localizer_locale]
       set_locale(new_locale)
       yield
     ensure
@@ -91,7 +99,7 @@ module SimpleLocalizer
   end
 
   def read_locale
-    Thread.current[:simple_localizer_locale]
+    (Thread.current[:simple_localizer_locale] || I18n.locale || I18n.default_locale).to_s
   end
 
   private
