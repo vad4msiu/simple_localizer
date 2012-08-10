@@ -18,6 +18,14 @@ class Product < ActiveRecord::Base
 end
 ```
 
+## Create migration for translations
+
+```console
+bundle exec rails generate simple_localizer:create_migration product name:string
+```
+
+## Usage
+
 ```ruby
 product = Product.create! :name_en => 'a'
 puts product.name_en # => a
