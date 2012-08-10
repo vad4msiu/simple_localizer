@@ -42,29 +42,34 @@ module SimpleLocalizer
       translated_attribute_names.each do |attr|
         define_method attr do
           locale = SimpleLocalizer.read_locale || I18n.default_locale.to_s
-          translations.detect { |translation|
-            translation.locale == locale
-          }.try(attr)
+          send("#{attr}_#{locale}")
         end
 
         define_method "#{attr}=" do |value|
           locale = SimpleLocalizer.read_locale || I18n.default_locale.to_s
-          translation = translations.detect { |translation|
-            translation.locale == locale
-          }
-          translation ||= translations.build :locale => locale
-          translation.send("#{attr}=", value)
+          send("#{attr}_#{locale}=", value)
         end
 
         SimpleLocalizer::SUPPORTED_LOCALES.each do |locale|
           define_method "#{attr}_#{locale}" do
             translation = translations.detect { |translation|
-              translation.locale == locale || (I18n.respond_to?(:fallbacks) && I18n.fallbacks[locale.to_sym].include?(translation.locale.to_sym))
-            }.try(attr)
+              translation.locale == locale
+            }
+
+            if I18n.respond_to?(:fallbacks) && translation.try(attr).nil?
+              fallbacks_locales = I18n.fallbacks[locale.to_sym]
+              translation = translations.detect { |translation|
+                fallbacks_locales.include? translation.locale.to_sym
+              }
+            end
+
+            translation.try(attr)
           end
 
           define_method "#{attr}_#{locale}=" do |value|
-            translation = translations.detect { |translation| translation.locale == locale }
+            translation = translations.detect { |translation|
+              translation.locale == locale
+            }
             translation ||= translations.build :locale => locale
             translation.send("#{attr}=", value)
           end
