@@ -29,7 +29,7 @@ module SimpleLocalizer
       translated_attribute_names = columns.map &:to_s
 
       translation_class.table_name = "#{underscore_name}_translations"
-      translation_class.belongs_to underscore_name
+      translation_class.belongs_to underscore_name.to_sym # WORKAROUND Rails prefers association name to be symbol
       translation_class.validates :locale, :presence => true
       translation_class.validates :locale, :uniqueness => { :scope => ["#{underscore_name}_id"] }
 
