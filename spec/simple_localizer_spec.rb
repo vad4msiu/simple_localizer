@@ -34,6 +34,11 @@ describe Product::Translation do
       @translation.valid?.should be_false
       @translation.errors['locale'].should be_include "has already been taken"
     end
+
+    it "должна работать предзагрузка ассоциаций" do
+      Product::Translation.create!  :locale => 'ru', :product_id => 123, :name => 'asd'
+      Product::Translation.includes(:product).first.should be_instance_of(Product::Translation)
+    end
   end
 end
 
