@@ -47,7 +47,11 @@ puts product.name_ru # => e
 ```
 
 ## Supported locales
-
+You can change supported locales if necessary. Create file </pre>config/initializers/simple_localizer.rb</pre>:
+```ruby
+SimpleLocalizer.supported_locales = %w(ru en fr)
+```
+Locales ​​supported by default:
 aa ab ae af al am ar as ay az
 ba be bg bh bi bn bo bp br ca
 cf ch co cs cy de dr dt dz ef
