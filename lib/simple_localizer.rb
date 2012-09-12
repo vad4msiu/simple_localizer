@@ -50,6 +50,9 @@ module SimpleLocalizer
           send("#{attr}_#{locale}=", value)
         end
 
+        # I use method 'detect'. This is not the fastest solution, but it is simple.
+        # If you have many entries for 'translations' association and this piece of code slows down,
+        # you can use the hash, but then do not forget to take care of cleaning it when call the method 'reload' for model.
         SimpleLocalizer.supported_locales.each do |locale|
           define_method "#{attr}_#{locale}" do
             translation = translations.detect { |translation|
