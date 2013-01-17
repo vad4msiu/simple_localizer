@@ -6,6 +6,19 @@ class Product < ActiveRecord::Base
   translates :name
 end
 
+module Admin
+  class Catalog < ActiveRecord::Base
+    translates :name
+  end
+end
+
+describe Admin::Catalog::Translation do
+  it "должен правильно установить название таблици" do
+    Admin::Catalog::Translation.table_name.should == 'admin_catalog_translations'
+  end
+end
+
+
 describe SimpleLocalizer do
   it "должен выполнить блок с установленным языком" do
     product = Product.create! :name_fr => 'qwe', :name_en => 'asd'

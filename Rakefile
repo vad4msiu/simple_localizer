@@ -33,6 +33,17 @@ namespace :db do
 
   desc 'Run migrations'
   task :migrate do
+    ActiveRecord::Migration.create_table :admin_catalogs do |t|
+      t.timestamps
+    end
+
+    ActiveRecord::Migration.create_table :admin_catalog_translations do |t|
+      t.string :locale
+      t.string :name
+      t.integer :admin_catalog_id
+      t.timestamps
+    end
+
     ActiveRecord::Migration.create_table :products do |t|
       t.timestamps
     end

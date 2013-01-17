@@ -24,7 +24,7 @@ module SimpleLocalizer
 
   module ClassMethods
     def translates *columns
-      underscore_name = name.underscore
+      underscore_name = name.underscore.gsub("/", "_")
       translation_class = const_set(:Translation, Class.new(ActiveRecord::Base))
       translated_attribute_names = columns.map &:to_s
 
