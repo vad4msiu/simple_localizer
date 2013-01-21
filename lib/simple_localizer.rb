@@ -36,7 +36,8 @@ module SimpleLocalizer
       has_many(:translations,
         :class_name => translation_class.name,
         :dependent  => :destroy,
-        :autosave   => true
+        :autosave   => true ,
+        :foreign_key => "#{underscore_name}_id"
       )
 
       translated_attribute_names.each do |attr|
