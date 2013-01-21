@@ -14,7 +14,7 @@ end
 
 describe Admin::Catalog::Translation do
   it "должен правильно установить название таблици" do
-    Admin::Catalog::Translation.table_name.should == 'admin_catalog_translations'
+    Admin::Catalog::Translation.table_name.should == 'catalog_translations'
   end
 end
 

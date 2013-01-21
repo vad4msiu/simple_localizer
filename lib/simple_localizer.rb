@@ -28,7 +28,7 @@ module SimpleLocalizer
       translation_class = const_set(:Translation, Class.new(ActiveRecord::Base))
       translated_attribute_names = columns.map &:to_s
 
-      translation_class.table_name = "#{underscore_name}_translations"
+      translation_class.table_name = "#{table_name.singularize}_translations"
       translation_class.belongs_to underscore_name.to_sym # WORKAROUND Rails prefers association name to be symbol
       translation_class.validates :locale, :presence => true
       translation_class.validates :locale, :uniqueness => { :scope => ["#{underscore_name}_id"] }
@@ -63,7 +63,7 @@ module SimpleLocalizer
             if I18n.respond_to?(:fallbacks) && translation.try(attr).nil?
               fallbacks_locales = I18n.fallbacks[locale.to_sym]
               translation = translations.detect { |translation|
-                fallbacks_locales.include? translation.locale.to_sym
+                fallbacks_locales.include?(translation.locale.to_sym)
               }
             end
 
