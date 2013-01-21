@@ -28,16 +28,18 @@ module SimpleLocalizer
       translation_class = const_set(:Translation, Class.new(ActiveRecord::Base))
       translated_attribute_names = columns.map &:to_s
 
-      translation_class.table_name = "#{table_name.singularize}_translations"
+      association_name = table_name.singularize
+
+      translation_class.table_name = "#{association_name}_translations"
       translation_class.belongs_to underscore_name.to_sym # WORKAROUND Rails prefers association name to be symbol
       translation_class.validates :locale, :presence => true
-      translation_class.validates :locale, :uniqueness => { :scope => ["#{underscore_name}_id"] }
+      translation_class.validates :locale, :uniqueness => { :scope => ["#{association_name}_id"] }
 
       has_many(:translations,
         :class_name => translation_class.name,
         :dependent  => :destroy,
         :autosave   => true ,
-        :foreign_key => "#{underscore_name}_id"
+        :foreign_key => "#{association_name}_id"
       )
 
       translated_attribute_names.each do |attr|

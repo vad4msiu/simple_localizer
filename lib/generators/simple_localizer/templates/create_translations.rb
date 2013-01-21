@@ -1,6 +1,7 @@
-<% table_name = ":#{model_name.constantize.table_name.singularize}_translations" -%>
-<% owner_id   = ":#{model_name.underscore.gsub("/", "_")}_id" -%>
-class Create<%= model_name.constantize.table_name.singularize.gsub("::", "").camelcase -%>Translations < ActiveRecord::Migration
+<% original_name = model_name.constantize.table_name.singularize -%>
+<% table_name = ":#{original_name}_translations" -%>
+<% owner_id   = ":#{original_name}_id" -%>
+class Create<%= original_name.gsub("::", "").camelcase -%>Translations < ActiveRecord::Migration
   def change
     create_table <%= table_name -%> do |t|
       t.string :locale, :null => false
