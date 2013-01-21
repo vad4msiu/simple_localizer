@@ -63,7 +63,7 @@ module SimpleLocalizer
             if I18n.respond_to?(:fallbacks) && translation.try(attr).nil?
               fallbacks_locales = I18n.fallbacks[locale.to_sym]
               translation = translations.detect { |translation|
-                fallbacks_locales.include?(translation.locale.to_sym)
+                fallbacks_locales.include?(translation.locale.to_sym) && translation.send(attr).present?
               }
             end
 
