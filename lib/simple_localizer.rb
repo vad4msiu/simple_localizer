@@ -24,22 +24,27 @@ module SimpleLocalizer
 
   module ClassMethods
     def translates *columns
-      underscore_name = name.underscore.gsub("/", "_")
+      underscore_name = name.underscore.gsub("/", "_").to_sym
+      foreign_key     = "#{underscore_name}_id".to_sym
+
       translation_class = const_set(:Translation, Class.new(ActiveRecord::Base))
       translated_attribute_names = columns.map &:to_s
 
-      association_name = table_name.singularize
-
-      translation_class.table_name = "#{association_name}_translations"
-      translation_class.belongs_to underscore_name.to_sym # WORKAROUND Rails prefers association name to be symbol
+      translation_class.table_name = "#{underscore_name}_translations"
+      translation_class.belongs_to(underscore_name, # WORKAROUND Rails prefers association name to be symbol
+        :class_name  => self.name,
+        :foreign_key => foreign_key
+      )
       translation_class.validates :locale, :presence => true
-      translation_class.validates :locale, :uniqueness => { :scope => ["#{association_name}_id"] }
+      translation_class.validates underscore_name, :presence => true
+      translation_class.validates :locale, :uniqueness => { :scope => foreign_key }
 
       has_many(:translations,
-        :class_name => translation_class.name,
-        :dependent  => :destroy,
-        :autosave   => true ,
-        :foreign_key => "#{association_name}_id"
+        :dependent   => :destroy,
+        :autosave    => true,
+        :class_name  => translation_class.name,
+        :inverse_of  => underscore_name,
+        :foreign_key => foreign_key
       )
 
       translated_attribute_names.each do |attr|

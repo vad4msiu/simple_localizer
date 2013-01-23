@@ -1,23 +1,77 @@
 # encoding: UTF-8
 
-require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
+require File.expand_path('../spec_helper', __FILE__)
 
-class Product < ActiveRecord::Base
-  translates :name
-end
+describe "проверяем всякие штуки с неймспейсами" do
+  describe Food::Restaurant do
+    it "должна быть доступна связь translations" do
+      owner = Food::Restaurant.create! :name => 'asd'
+      expect {
+        owner.translations
+      }.to_not raise_error
+    end
+  end
 
-module Admin
-  class Catalog < ActiveRecord::Base
-    translates :name
+  describe Food::Restaurant::Translation do
+    it "должна быть доступна связь admin_catalog" do
+      translation = Food::Restaurant::Translation.create!(
+        :locale             => 'ru',
+        :food_restaurant_id => Food::Restaurant.create!.id,
+        :name               => 'asd'
+      )
+
+      expect {
+        translation.food_restaurant
+      }.to_not raise_error
+    end
+  end
+
+  describe Admin::Catalog do
+    it "должна быть доступна связь translations" do
+      owner = Admin::Catalog.create! :name => 'asd'
+      expect {
+        owner.translations
+      }.to_not raise_error
+    end
+  end
+
+  describe Admin::Catalog::Translation do
+    it "должна быть доступна связь admin_catalog" do
+      translation = Admin::Catalog::Translation.create!(
+        :locale           => 'ru',
+        :admin_catalog_id => Admin::Catalog.create!.id,
+        :name             => 'asd'
+      )
+
+      expect {
+        translation.admin_catalog
+      }.to_not raise_error
+    end
+  end
+
+  describe Legacy::Service do
+    it "должна быть доступна связь translations" do
+      owner = Legacy::Service.create! :name => 'asd'
+      expect {
+        owner.translations
+      }.to_not raise_error
+    end
+  end
+
+  describe Legacy::Service::Translation do
+    it "должна быть доступна связь legacy_service" do
+      translation = Legacy::Service::Translation.create!(
+        :locale            => 'ru',
+        :legacy_service_id => Legacy::Service.create!.id,
+        :name              => 'asd'
+      )
+
+      expect {
+        translation.legacy_service
+      }.to_not raise_error
+    end
   end
 end
-
-describe Admin::Catalog::Translation do
-  it "должен правильно установить название таблици" do
-    Admin::Catalog::Translation.table_name.should == 'catalog_translations'
-  end
-end
-
 
 describe SimpleLocalizer do
   it "должен выполнить блок с установленным языком" do
@@ -30,81 +84,95 @@ end
 
 describe Product::Translation do
   describe "валидация" do
-    before(:each) do
-      @translation = Product::Translation.new
-    end
+    let(:translation) { Product::Translation.new }
+    let(:product) { Product.create! }
 
     it "не должен быть валидным если поле локали пустое" do
-      @translation.valid?.should be_false
-      @translation.errors['locale'].should be_include "can't be blank"
+      translation.valid?.should be_false
+      translation.errors['locale'].should be_include "can't be blank"
     end
 
     it "не должен быть валидным если поле для belongs_to связи не уникальное в скопе с полем locale" do
-      Product::Translation.create!  :locale => 'ru', :product_id => 123, :name => 'asd'
-      @translation.locale = 'ru'
-      @translation.name = 'qwe'
-      @translation.product_id = 123
-      @translation.valid?.should be_false
-      @translation.errors['locale'].should be_include "has already been taken"
+      Product::Translation.create!(
+        :locale     => 'ru',
+        :product_id => product.id,
+        :name       => 'asd'
+      )
+      translation.locale     = 'ru'
+      translation.name       = 'qwe'
+      translation.product_id = product.id
+      translation.valid?.should be_false
+      translation.errors['locale'].should be_include "has already been taken"
     end
 
     it "должна работать предзагрузка ассоциаций" do
-      Product::Translation.create!  :locale => 'ru', :product_id => 123, :name => 'asd'
-      Product::Translation.includes(:product).first.should be_instance_of(Product::Translation)
+      Product::Translation.create!(
+        :locale     => 'ru',
+        :product_id => product.id,
+        :name       => 'asd'
+      )
+      expect {
+        Product::Translation.includes(:product).all
+      }.to_not raise_error
     end
   end
 end
 
 describe Product do
+  let(:product) { Product.create! :name_ru => 'asd' }
+
   describe "после обвноления" do
-    before(:each) do
-      @product = Product.create! :name_ru => 'asd'
-    end
 
     it "должен обновлять перевод" do
-      @product.update_attributes :name_ru => 'qwe'
-      @product.translations.first.name.should == 'qwe'
+      product.update_attributes :name_ru => 'qwe'
+      product.translations.where(:locale => 'ru').first.name.should == 'qwe'
     end
 
     it "должен добавить новый перевод" do
-      @product.translations.count.should == 1
-      @product.update_attributes :name_en => 'qwe'
-      @product.translations.count.should == 2
+      product.translations.count.should == 1
+      product.update_attributes :name_en => 'qwe'
+      product.translations.count.should == 2
     end
   end
 
   describe "после создания" do
-    before(:each) do
-      @product = Product.create! :name_ru => 'asd'
-    end
-
     it "должен создать несколько переводов" do
-      product = Product.create! :name_ru => 'asd', :name_en => 'asd'
-      product.translations.count.should == 2
+      Product.create!(
+        :name_ru => 'asd',
+        :name_en => 'asd'
+      ).translations.count.should == 2
     end
 
     it "должен создать перевод с заданной локалью" do
-      @product.translations.count.should == 1
+      product.translations.count.should == 1
     end
 
     it "локаль в созданном переводе должна равняться заданной при создании" do
-      @product.translations.first.locale.should == 'ru'
+      product.translations.first.locale.should == 'ru'
     end
 
     it "значение в переводе должено равняться переданному при создании" do
-      @product.translations.first.name.should == 'asd'
+      product.translations.first.name.should == 'asd'
     end
   end
 
   it "должен отдать с fallback локалью" do
     I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
     I18n.fallbacks[:ru] = [:ru, :en, :fr]
-    product = Product.create! :name_fr => 'asd', :name_ru => nil, :name_en => nil
-    product.name_ru.should == 'asd'
+    Product.create!(
+      :name_fr => 'asd',
+      :name_ru => nil,
+      :name_en => nil
+    ).name_ru.should == 'asd'
   end
 
   it "должен создать перевод с локалью I18n.default_locale" do
-    product = Product.create! :name => 'asd'
-    product.translations.first.locale == I18n.default_locale
+    Product.create!(
+      :name => 'asd'
+    ).translations.first.locale == I18n.default_locale
   end
+end
+
+describe "генерация миграций" do
+  pending
 end

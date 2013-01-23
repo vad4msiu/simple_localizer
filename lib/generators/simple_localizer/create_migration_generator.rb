@@ -24,7 +24,7 @@ module SimpleLocalizer
       def create_migration
         migration_template(
           "create_translations.rb",
-          "db/migrate/create_#{model_name.constantize.table_name.singularize}_translations",
+          "db/migrate/create_#{model_name.underscore.gsub("/", "_")}_translations",
         )
       end
     end
