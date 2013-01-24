@@ -1,7 +1,7 @@
 PATH
   remote: /Users/vad4msiu/projects/github/simple_localizer
   specs:
-    simple_localizer (0.0.4)
+    simple_localizer (0.0.5)
       activerecord
 
 GEM

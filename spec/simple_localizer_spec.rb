@@ -121,8 +121,25 @@ end
 describe Product do
   let(:product) { Product.create! :name_ru => 'asd' }
 
-  describe "после обвноления" do
+  it "должен поддерживать повтороный вызов translates" do
+    expect {
+      product.update_attributes(
+        :name_ru        => 'qwe',
+        :description_ru => 'asd'
+      )
+    }.to raise_error
 
+    Product.translates :description
+
+    expect {
+      product.update_attributes(
+        :name_ru        => 'qwe',
+        :description_ru => 'asd'
+      )
+    }.to_not raise_error
+  end
+
+  describe "после обвноления" do
     it "должен обновлять перевод" do
       product.update_attributes :name_ru => 'qwe'
       product.translations.where(:locale => 'ru').first.name.should == 'qwe'

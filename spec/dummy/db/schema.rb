@@ -55,11 +55,12 @@ ActiveRecord::Schema.define(:version => 20130123200543) do
   add_index "legacy_service_translations", ["locale"], :name => "index_legacy_service_translations_on_locale"
 
   create_table "product_translations", :force => true do |t|
-    t.string   "locale",     :null => false
+    t.string   "locale",      :null => false
     t.integer  "product_id"
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
 
   add_index "product_translations", ["locale", "product_id"], :name => "index_product_translations_on_locale_and_product_id", :unique => true

@@ -2,8 +2,9 @@ class CreateProductTranslations < ActiveRecord::Migration
   def change
     create_table :product_translations do |t|
       t.string :locale, :null => false
-      t.integer :product_id      
-      t.string :name      
+      t.integer :product_id
+      t.string :name
+      t.string :description
 
       t.timestamps
     end

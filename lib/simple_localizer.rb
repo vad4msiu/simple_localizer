@@ -24,28 +24,31 @@ module SimpleLocalizer
 
   module ClassMethods
     def translates *columns
-      underscore_name = name.underscore.gsub("/", "_").to_sym
-      foreign_key     = "#{underscore_name}_id".to_sym
-
-      translation_class = const_set(:Translation, Class.new(ActiveRecord::Base))
       translated_attribute_names = columns.map &:to_s
 
-      translation_class.table_name = "#{underscore_name}_translations"
-      translation_class.belongs_to(underscore_name, # WORKAROUND Rails prefers association name to be symbol
-        :class_name  => self.name,
-        :foreign_key => foreign_key
-      )
-      translation_class.validates :locale, :presence => true
-      translation_class.validates underscore_name, :presence => true
-      translation_class.validates :locale, :uniqueness => { :scope => foreign_key }
+      unless const_defined? :Translation
+        underscore_name = name.underscore.gsub("/", "_").to_sym
+        foreign_key     = "#{underscore_name}_id".to_sym
 
-      has_many(:translations,
-        :dependent   => :destroy,
-        :autosave    => true,
-        :class_name  => translation_class.name,
-        :inverse_of  => underscore_name,
-        :foreign_key => foreign_key
-      )
+        translation_class = const_set(:Translation, Class.new(ActiveRecord::Base))
+
+        translation_class.table_name = "#{underscore_name}_translations"
+        translation_class.belongs_to(underscore_name, # WORKAROUND Rails prefers association name to be symbol
+          :class_name  => self.name,
+          :foreign_key => foreign_key
+        )
+        translation_class.validates :locale, :presence => true
+        translation_class.validates underscore_name, :presence => true
+        translation_class.validates :locale, :uniqueness => { :scope => foreign_key }
+
+        has_many(:translations,
+          :dependent   => :destroy,
+          :autosave    => true,
+          :class_name  => translation_class.name,
+          :inverse_of  => underscore_name,
+          :foreign_key => foreign_key
+        )
+      end
 
       translated_attribute_names.each do |attr|
         define_method attr do
@@ -68,9 +71,9 @@ module SimpleLocalizer
             }
 
             if I18n.respond_to?(:fallbacks) && translation.try(attr).nil?
-              fallbacks_locales = I18n.fallbacks[locale.to_sym]
+              fallbacks_locales = I18n.fallbacks.fetch(locale.to_sym, locale).map(&:to_s)
               translation = translations.detect { |translation|
-                fallbacks_locales.include?(translation.locale.to_sym) && translation.send(attr).present?
+                fallbacks_locales.include?(translation.locale) && translation.send(attr).present?
               }
             end
 
