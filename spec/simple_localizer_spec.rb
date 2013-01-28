@@ -173,14 +173,63 @@ describe Product do
     end
   end
 
-  it "должен отдать с fallback локалью" do
-    I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
-    I18n.fallbacks[:ru] = [:ru, :en, :fr]
-    Product.create!(
-      :name_fr => 'asd',
-      :name_ru => nil,
-      :name_en => nil
-    ).name_ru.should == 'asd'
+  describe  "I18n.fallbacks" do
+    before(:each) do
+      I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
+    end
+
+    context "fallbacks локали лежит не массив" do
+      it "должен отдать с fallback локалью" do
+        I18n.fallbacks[:ru] = :fr
+        Product.create!(
+          :name_fr => 'asd',
+          :name_ru => nil,
+          :name_en => nil
+        ).name_ru.should == 'asd'
+      end
+    end
+
+    context "fallbacks локали лежит nil" do
+      it "должен отдать с fallback локалью" do
+        I18n.fallbacks[:ru] = nil
+        Product.create!(
+          :name_fr => 'asd',
+          :name_ru => nil,
+          :name_en => nil
+        ).name_ru.should == nil
+      end
+    end
+
+    context "fallbacks локали nil" do
+      it "должен отдать с fallback локалью" do
+        I18n.fallbacks = nil
+        Product.create!(
+          :name_fr => 'asd',
+          :name_ru => nil,
+          :name_en => nil
+        ).name_ru.should == nil
+      end
+    end
+
+    context "fallbacks локали нету" do
+      it "должен отдать с fallback локалью" do
+        I18n.fallbacks = {}
+        Product.create!(
+          :name_fr => 'asd',
+          :name_ru => nil,
+          :name_en => nil
+        ).name_ru.should == nil
+      end
+    end
+
+    it "должен отдать с fallback локалью" do
+      I18n.fallbacks[:ru] = [:ru, :en, :fr]
+      Product.create!(
+        :name_fr => 'asd',
+        :name_ru => nil,
+        :name_en => nil
+      ).name_ru.should == 'asd'
+    end
   end
 
   it "должен создать перевод с локалью I18n.default_locale" do
