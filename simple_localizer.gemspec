@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "simple_localizer"
-  s.version = "0.0.6"
+  s.version = "0.0.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["vad4msiu"]
-  s.date = "2013-01-24"
+  s.date = "2013-01-29"
   s.description = "Simple localization your ActiveRecord fields without magic"
   s.email = "vad4msiu@gmail.com"
   s.extra_rdoc_files = [
