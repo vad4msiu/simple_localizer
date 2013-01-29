@@ -22,3 +22,7 @@ doc
 .bundle
 pkg
 .DS_Store
+
+# ctags
+.tags
+.tags_sorted_by_file
