@@ -70,17 +70,8 @@ module SimpleLocalizer
               translation.locale == locale
             }
 
-            if I18n.respond_to?(:fallbacks) &&
-              translation.try(attr).nil? &&
-              I18n.fallbacks.present? &&
-              fallbacks_locales = I18n.fallbacks.fetch(locale.to_sym, locale)
-
-              fallbacks_locales = if fallbacks_locales.is_a? Array
-                fallbacks_locales.map(&:to_s)
-              else
-                [fallbacks_locales.to_s]
-              end
-
+            if I18n.respond_to?(:fallbacks) && translation.try(attr).nil?
+              fallbacks_locales = I18n.fallbacks.fetch(locale.to_sym, locale).map(&:to_s)
               translation = translations.detect { |translation|
                 fallbacks_locales.include?(translation.locale) && translation.send(attr).present?
               }
