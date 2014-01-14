@@ -41,7 +41,7 @@ module SimpleLocalizer
         translation_class.validates :locale, :presence => true
         translation_class.validates underscore_name, :presence => true
         translation_class.validates :locale, :uniqueness => { :scope => foreign_key }
-	translation_class.attr_accessible :locale
+
         has_many(:translations,
           :dependent   => :destroy,
           :autosave    => true,
