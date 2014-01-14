@@ -35,7 +35,8 @@ module SimpleLocalizer
         translation_class.table_name = "#{underscore_name}_translations"
         translation_class.belongs_to(underscore_name, # WORKAROUND Rails prefers association name to be symbol
           :class_name  => self.name,
-          :foreign_key => foreign_key
+          :foreign_key => foreign_key,
+          :touch       => true
         )
         translation_class.validates :locale, :presence => true
         translation_class.validates underscore_name, :presence => true
