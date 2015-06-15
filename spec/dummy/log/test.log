@@ -1,0 +1,1095 @@
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "admin_catalog_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "locale" varchar(255) NOT NULL, "admin_catalog_id" integer, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.9ms)[0m  CREATE INDEX "index_admin_catalog_translations_on_admin_catalog_id" ON "admin_catalog_translations" ("admin_catalog_id")
+  [1m[36m (0.9ms)[0m  [1mCREATE UNIQUE INDEX "zakujogdjaznuhjqdbwz" ON "admin_catalog_translations" ("locale", "admin_catalog_id")[0m
+  [1m[35m (0.9ms)[0m  CREATE INDEX "index_admin_catalog_translations_on_locale" ON "admin_catalog_translations" ("locale")
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "admin_catalogs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "food_restaurant_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "locale" varchar(255) NOT NULL, "food_restaurant_id" integer, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.2ms)[0m  [1mCREATE INDEX "index_food_restaurant_translations_on_food_restaurant_id" ON "food_restaurant_translations" ("food_restaurant_id")[0m
+  [1m[35m (0.9ms)[0m  CREATE UNIQUE INDEX "nqeqdgkmyeuwwgwyxdui" ON "food_restaurant_translations" ("locale", "food_restaurant_id")
+  [1m[36m (0.9ms)[0m  [1mCREATE INDEX "index_food_restaurant_translations_on_locale" ON "food_restaurant_translations" ("locale")[0m
+  [1m[35m (0.9ms)[0m  CREATE TABLE "legacy_service_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "locale" varchar(255) NOT NULL, "legacy_service_id" integer, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.1ms)[0m  [1mCREATE INDEX "index_legacy_service_translations_on_legacy_service_id" ON "legacy_service_translations" ("legacy_service_id")[0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX "qtyhfsoamlrpjmayrkyp" ON "legacy_service_translations" ("locale", "legacy_service_id")
+  [1m[36m (1.2ms)[0m  [1mCREATE INDEX "index_legacy_service_translations_on_locale" ON "legacy_service_translations" ("locale")[0m
+  [1m[35m (0.9ms)[0m  CREATE TABLE "product_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "locale" varchar(255) NOT NULL, "product_id" integer, "name" varchar(255), "description" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.8ms)[0m  [1mCREATE UNIQUE INDEX "index_product_translations_on_locale_and_product_id" ON "product_translations" ("locale", "product_id")[0m
+  [1m[35m (1.0ms)[0m  CREATE INDEX "index_product_translations_on_locale" ON "product_translations" ("locale")
+  [1m[36m (1.6ms)[0m  [1mCREATE INDEX "index_product_translations_on_product_id" ON "product_translations" ("product_id")[0m
+  [1m[35m (2.8ms)[0m  CREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "qweqweqwe" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "restaurants" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130123200543')
+  [1m[36m (1.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130123145651')[0m
+  [1m[35m (0.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130123151746')
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130123151803')[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130123151814')
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130123200420')[0m
+  [1m[35m (1.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130123200525')
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130123200536')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mFood::Restaurant::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "food_restaurant_translations" WHERE ("food_restaurant_translations"."locale" = 'en' AND "food_restaurant_translations"."food_restaurant_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (3.9ms)[0m  INSERT INTO "restaurants" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_restaurant_translations" ("created_at", "food_restaurant_id", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["food_restaurant_id", 1], ["locale", "en"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mFood::Restaurant Load (0.1ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "restaurants" SET "updated_at" = '2015-06-15 13:56:44.727872' WHERE "restaurants"."id" = 1[0m
+  [1m[35mFood::Restaurant Load (0.1ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? ORDER BY "restaurants"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "restaurants" SET "updated_at" = '2015-06-15 13:56:44.729489' WHERE "restaurants"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "restaurants" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mFood::Restaurant Load (0.1ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? ORDER BY "restaurants"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mFood::Restaurant::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "food_restaurant_translations" WHERE ("food_restaurant_translations"."locale" = 'ru' AND "food_restaurant_translations"."food_restaurant_id" = 1) LIMIT 1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "food_restaurant_translations" ("created_at", "food_restaurant_id", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["food_restaurant_id", 1], ["locale", "ru"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mFood::Restaurant Load (0.1ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "restaurants" SET "updated_at" = '2015-06-15 13:56:44.737142' WHERE "restaurants"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "restaurants" SET "updated_at" = '2015-06-15 13:56:44.737650' WHERE "restaurants"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdmin::Catalog::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "admin_catalog_translations" WHERE ("admin_catalog_translations"."locale" = 'en' AND "admin_catalog_translations"."admin_catalog_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "admin_catalogs" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "admin_catalog_translations" ("admin_catalog_id", "created_at", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["admin_catalog_id", 1], ["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "en"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mAdmin::Catalog Load (0.1ms)[0m  SELECT "admin_catalogs".* FROM "admin_catalogs" WHERE "admin_catalogs"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "admin_catalogs" SET "updated_at" = '2015-06-15 13:56:44.775644' WHERE "admin_catalogs"."id" = 1[0m
+  [1m[35mAdmin::Catalog Load (0.1ms)[0m  SELECT "admin_catalogs".* FROM "admin_catalogs" WHERE "admin_catalogs"."id" = ? ORDER BY "admin_catalogs"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "admin_catalogs" SET "updated_at" = '2015-06-15 13:56:44.777492' WHERE "admin_catalogs"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "admin_catalogs" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdmin::Catalog Load (0.1ms)[0m  [1mSELECT "admin_catalogs".* FROM "admin_catalogs" WHERE "admin_catalogs"."id" = ? ORDER BY "admin_catalogs"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mAdmin::Catalog::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "admin_catalog_translations" WHERE ("admin_catalog_translations"."locale" = 'ru' AND "admin_catalog_translations"."admin_catalog_id" = 1) LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "admin_catalog_translations" ("admin_catalog_id", "created_at", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["admin_catalog_id", 1], ["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mAdmin::Catalog Load (0.2ms)[0m  SELECT "admin_catalogs".* FROM "admin_catalogs" WHERE "admin_catalogs"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "admin_catalogs" SET "updated_at" = '2015-06-15 13:56:44.787691' WHERE "admin_catalogs"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "admin_catalogs" SET "updated_at" = '2015-06-15 13:56:44.788536' WHERE "admin_catalogs"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mLegacy::Service::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "legacy_service_translations" WHERE ("legacy_service_translations"."locale" = 'en' AND "legacy_service_translations"."legacy_service_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "qweqweqwe" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "legacy_service_translations" ("created_at", "legacy_service_id", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["legacy_service_id", 1], ["locale", "en"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mLegacy::Service Load (0.1ms)[0m  SELECT "qweqweqwe".* FROM "qweqweqwe" WHERE "qweqweqwe"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "qweqweqwe" SET "updated_at" = '2015-06-15 13:56:44.825008' WHERE "qweqweqwe"."id" = 1[0m
+  [1m[35mLegacy::Service Load (0.1ms)[0m  SELECT "qweqweqwe".* FROM "qweqweqwe" WHERE "qweqweqwe"."id" = ? ORDER BY "qweqweqwe"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "qweqweqwe" SET "updated_at" = '2015-06-15 13:56:44.826760' WHERE "qweqweqwe"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "qweqweqwe" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mLegacy::Service Load (0.2ms)[0m  [1mSELECT "qweqweqwe".* FROM "qweqweqwe" WHERE "qweqweqwe"."id" = ? ORDER BY "qweqweqwe"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mLegacy::Service::Translation Exists (0.3ms)[0m  SELECT 1 AS one FROM "legacy_service_translations" WHERE ("legacy_service_translations"."locale" = 'ru' AND "legacy_service_translations"."legacy_service_id" = 1) LIMIT 1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "legacy_service_translations" ("created_at", "legacy_service_id", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["legacy_service_id", 1], ["locale", "ru"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mLegacy::Service Load (0.2ms)[0m  SELECT "qweqweqwe".* FROM "qweqweqwe" WHERE "qweqweqwe"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "qweqweqwe" SET "updated_at" = '2015-06-15 13:56:44.839289' WHERE "qweqweqwe"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "qweqweqwe" SET "updated_at" = '2015-06-15 13:56:44.839866' WHERE "qweqweqwe"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'fr' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "fr"], ["name", "qwe"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.879874' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.882314' WHERE "products"."id" = 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "en"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.887097' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.888159' WHERE "products"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mProduct::Translation Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" IS NULL AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mProduct::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.899631' WHERE "products"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.900690' WHERE "products"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.910202' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.910689' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Load (0.1ms)[0m  SELECT "product_translations".* FROM "product_translations"
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" IN (1)[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.923834' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.925585' WHERE "products"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."id" != 1 AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "product_translations" SET "name" = ?, "description" = ?, "updated_at" = ? WHERE "product_translations"."id" = 1[0m  [["name", "qwe"], ["description", "asd"], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.936748' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.937409' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'fr' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mProduct::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "fr"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.951056' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.952763' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "product_id", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "ru"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.955508' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.956971' WHERE "products"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "product_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "en"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.958787' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.960009' WHERE "products"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "en"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.965831' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.966785' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.973794' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.975494' WHERE "products"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."id" != 1 AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "product_translations" SET "name" = ?, "updated_at" = ? WHERE "product_translations"."id" = 1[0m  [["name", "qwe"], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.978844' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.979344' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Load (0.2ms)[0m  SELECT "product_translations".* FROM "product_translations" WHERE "product_translations"."product_id" = ? AND "product_translations"."locale" = 'ru' ORDER BY "product_translations"."id" ASC LIMIT 1  [["product_id", 1]]
+  [1m[36m (1.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.3ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.990062' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.991097' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "product_translations" WHERE "product_translations"."product_id" = ?  [["product_id", 1]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00], ["locale", "en"], ["name", "qwe"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:44 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.996245' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:44.996729' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "product_translations" WHERE "product_translations"."product_id" = ?  [["product_id", 1]]
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mProduct::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:45.004079' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:45.005069' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00], ["locale", "en"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:45.007124' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:45.008370' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "product_translations" WHERE "product_translations"."product_id" = ?  [["product_id", 1]]
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:45.021677' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:45.022681' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "product_translations" WHERE "product_translations"."product_id" = ?  [["product_id", 1]]
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:45.030024' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:56:45.031294' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:56:45 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:45.041263' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:56:45.042364' WHERE "products"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mFood::Restaurant::Translation Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "food_restaurant_translations" WHERE ("food_restaurant_translations"."locale" = 'en' AND "food_restaurant_translations"."food_restaurant_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (2.7ms)[0m  INSERT INTO "restaurants" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_restaurant_translations" ("created_at", "food_restaurant_id", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00], ["food_restaurant_id", 1], ["locale", "en"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00]]
+  [1m[35mFood::Restaurant Load (0.1ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "restaurants" SET "updated_at" = '2015-06-15 13:58:16.917565' WHERE "restaurants"."id" = 1[0m
+  [1m[35mFood::Restaurant Load (0.1ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? ORDER BY "restaurants"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "restaurants" SET "updated_at" = '2015-06-15 13:58:16.919188' WHERE "restaurants"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (6.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "restaurants" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mFood::Restaurant Load (0.0ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? ORDER BY "restaurants"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mFood::Restaurant::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "food_restaurant_translations" WHERE ("food_restaurant_translations"."locale" = 'ru' AND "food_restaurant_translations"."food_restaurant_id" = 1) LIMIT 1
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "food_restaurant_translations" ("created_at", "food_restaurant_id", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00], ["food_restaurant_id", 1], ["locale", "ru"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00]]
+  [1m[35mFood::Restaurant Load (0.1ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "restaurants" SET "updated_at" = '2015-06-15 13:58:16.932937' WHERE "restaurants"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "restaurants" SET "updated_at" = '2015-06-15 13:58:16.933442' WHERE "restaurants"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdmin::Catalog::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "admin_catalog_translations" WHERE ("admin_catalog_translations"."locale" = 'en' AND "admin_catalog_translations"."admin_catalog_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "admin_catalogs" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "admin_catalog_translations" ("admin_catalog_id", "created_at", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["admin_catalog_id", 1], ["created_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00], ["locale", "en"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00]]
+  [1m[35mAdmin::Catalog Load (0.1ms)[0m  SELECT "admin_catalogs".* FROM "admin_catalogs" WHERE "admin_catalogs"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "admin_catalogs" SET "updated_at" = '2015-06-15 13:58:16.971197' WHERE "admin_catalogs"."id" = 1[0m
+  [1m[35mAdmin::Catalog Load (0.1ms)[0m  SELECT "admin_catalogs".* FROM "admin_catalogs" WHERE "admin_catalogs"."id" = ? ORDER BY "admin_catalogs"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "admin_catalogs" SET "updated_at" = '2015-06-15 13:58:16.972624' WHERE "admin_catalogs"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "admin_catalogs" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdmin::Catalog Load (0.1ms)[0m  [1mSELECT "admin_catalogs".* FROM "admin_catalogs" WHERE "admin_catalogs"."id" = ? ORDER BY "admin_catalogs"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mAdmin::Catalog::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "admin_catalog_translations" WHERE ("admin_catalog_translations"."locale" = 'ru' AND "admin_catalog_translations"."admin_catalog_id" = 1) LIMIT 1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "admin_catalog_translations" ("admin_catalog_id", "created_at", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["admin_catalog_id", 1], ["created_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:58:16 UTC +00:00]]
+  [1m[35mAdmin::Catalog Load (0.3ms)[0m  SELECT "admin_catalogs".* FROM "admin_catalogs" WHERE "admin_catalogs"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "admin_catalogs" SET "updated_at" = '2015-06-15 13:58:16.982492' WHERE "admin_catalogs"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "admin_catalogs" SET "updated_at" = '2015-06-15 13:58:16.983630' WHERE "admin_catalogs"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mLegacy::Service::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "legacy_service_translations" WHERE ("legacy_service_translations"."locale" = 'en' AND "legacy_service_translations"."legacy_service_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "qweqweqwe" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "legacy_service_translations" ("created_at", "legacy_service_id", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["legacy_service_id", 1], ["locale", "en"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mLegacy::Service Load (0.1ms)[0m  SELECT "qweqweqwe".* FROM "qweqweqwe" WHERE "qweqweqwe"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "qweqweqwe" SET "updated_at" = '2015-06-15 13:58:17.021228' WHERE "qweqweqwe"."id" = 1[0m
+  [1m[35mLegacy::Service Load (0.1ms)[0m  SELECT "qweqweqwe".* FROM "qweqweqwe" WHERE "qweqweqwe"."id" = ? ORDER BY "qweqweqwe"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "qweqweqwe" SET "updated_at" = '2015-06-15 13:58:17.022708' WHERE "qweqweqwe"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "qweqweqwe" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mLegacy::Service Load (0.2ms)[0m  [1mSELECT "qweqweqwe".* FROM "qweqweqwe" WHERE "qweqweqwe"."id" = ? ORDER BY "qweqweqwe"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mLegacy::Service::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "legacy_service_translations" WHERE ("legacy_service_translations"."locale" = 'ru' AND "legacy_service_translations"."legacy_service_id" = 1) LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "legacy_service_translations" ("created_at", "legacy_service_id", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["legacy_service_id", 1], ["locale", "ru"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mLegacy::Service Load (0.2ms)[0m  SELECT "qweqweqwe".* FROM "qweqweqwe" WHERE "qweqweqwe"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "qweqweqwe" SET "updated_at" = '2015-06-15 13:58:17.034490' WHERE "qweqweqwe"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "qweqweqwe" SET "updated_at" = '2015-06-15 13:58:17.035397' WHERE "qweqweqwe"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'fr' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "fr"], ["name", "qwe"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.077094' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.080756' WHERE "products"."id" = 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "en"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.083724' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.084681' WHERE "products"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" IS NULL AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mProduct::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.097652' WHERE "products"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.098295' WHERE "products"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.109647' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.110149' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.118124' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.119093' WHERE "products"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."id" != 1 AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "product_translations" SET "name" = ?, "description" = ?, "updated_at" = ? WHERE "product_translations"."id" = 1[0m  [["name", "qwe"], ["description", "asd"], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.127127' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.128039' WHERE "products"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'fr' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mProduct::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "fr"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.144850' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.146180' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "product_id", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "ru"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.150809' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.151871' WHERE "products"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "product_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "en"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.153469' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.154463' WHERE "products"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "en"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.160899' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.162254' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.169531' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.170477' WHERE "products"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."id" != 1 AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "product_translations" SET "name" = ?, "updated_at" = ? WHERE "product_translations"."id" = 1[0m  [["name", "qwe"], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.173615' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.174360' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Load (0.2ms)[0m  SELECT "product_translations".* FROM "product_translations" WHERE "product_translations"."product_id" = ? AND "product_translations"."locale" = 'ru' ORDER BY "product_translations"."id" ASC LIMIT 1  [["product_id", 1]]
+  [1m[36m (0.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.184203' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.185172' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "product_translations" WHERE "product_translations"."product_id" = ?  [["product_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "en"], ["name", "qwe"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.189605' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.190077' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "product_translations" WHERE "product_translations"."product_id" = ?  [["product_id", 1]]
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mProduct::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.198165' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.199147' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "en"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.200727' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.201564' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "product_translations" WHERE "product_translations"."product_id" = ?  [["product_id", 1]]
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.3ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.209027' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.210014' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "product_translations" WHERE "product_translations"."product_id" = ?  [["product_id", 1]]
+  [1m[36m (1.8ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.225408' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.226811' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:58:17 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.235615' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:58:17.236865' WHERE "products"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mFood::Restaurant::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "food_restaurant_translations" WHERE ("food_restaurant_translations"."locale" = 'en' AND "food_restaurant_translations"."food_restaurant_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (5.2ms)[0m  INSERT INTO "restaurants" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "food_restaurant_translations" ("created_at", "food_restaurant_id", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["food_restaurant_id", 1], ["locale", "en"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mFood::Restaurant Load (0.1ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "restaurants" SET "updated_at" = '2015-06-15 13:59:21.600330' WHERE "restaurants"."id" = 1[0m
+  [1m[35mFood::Restaurant Load (0.2ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? ORDER BY "restaurants"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "restaurants" SET "updated_at" = '2015-06-15 13:59:21.602474' WHERE "restaurants"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "restaurants" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mFood::Restaurant Load (0.1ms)[0m  [1mSELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = ? ORDER BY "restaurants"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mFood::Restaurant::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "food_restaurant_translations" WHERE ("food_restaurant_translations"."locale" = 'ru' AND "food_restaurant_translations"."food_restaurant_id" = 1) LIMIT 1
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "food_restaurant_translations" ("created_at", "food_restaurant_id", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["food_restaurant_id", 1], ["locale", "ru"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mFood::Restaurant Load (0.2ms)[0m  SELECT "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "restaurants" SET "updated_at" = '2015-06-15 13:59:21.611881' WHERE "restaurants"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "restaurants" SET "updated_at" = '2015-06-15 13:59:21.612799' WHERE "restaurants"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdmin::Catalog::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "admin_catalog_translations" WHERE ("admin_catalog_translations"."locale" = 'en' AND "admin_catalog_translations"."admin_catalog_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "admin_catalogs" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "admin_catalog_translations" ("admin_catalog_id", "created_at", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["admin_catalog_id", 1], ["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "en"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mAdmin::Catalog Load (0.2ms)[0m  SELECT "admin_catalogs".* FROM "admin_catalogs" WHERE "admin_catalogs"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "admin_catalogs" SET "updated_at" = '2015-06-15 13:59:21.666158' WHERE "admin_catalogs"."id" = 1[0m
+  [1m[35mAdmin::Catalog Load (0.2ms)[0m  SELECT "admin_catalogs".* FROM "admin_catalogs" WHERE "admin_catalogs"."id" = ? ORDER BY "admin_catalogs"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "admin_catalogs" SET "updated_at" = '2015-06-15 13:59:21.668885' WHERE "admin_catalogs"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.2ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "admin_catalogs" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mAdmin::Catalog Load (0.1ms)[0m  [1mSELECT "admin_catalogs".* FROM "admin_catalogs" WHERE "admin_catalogs"."id" = ? ORDER BY "admin_catalogs"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mAdmin::Catalog::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "admin_catalog_translations" WHERE ("admin_catalog_translations"."locale" = 'ru' AND "admin_catalog_translations"."admin_catalog_id" = 1) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "admin_catalog_translations" ("admin_catalog_id", "created_at", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["admin_catalog_id", 1], ["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mAdmin::Catalog Load (0.1ms)[0m  SELECT "admin_catalogs".* FROM "admin_catalogs" WHERE "admin_catalogs"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "admin_catalogs" SET "updated_at" = '2015-06-15 13:59:21.679163' WHERE "admin_catalogs"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "admin_catalogs" SET "updated_at" = '2015-06-15 13:59:21.680094' WHERE "admin_catalogs"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mLegacy::Service::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "legacy_service_translations" WHERE ("legacy_service_translations"."locale" = 'en' AND "legacy_service_translations"."legacy_service_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "qweqweqwe" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "legacy_service_translations" ("created_at", "legacy_service_id", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["legacy_service_id", 1], ["locale", "en"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mLegacy::Service Load (0.1ms)[0m  SELECT "qweqweqwe".* FROM "qweqweqwe" WHERE "qweqweqwe"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "qweqweqwe" SET "updated_at" = '2015-06-15 13:59:21.727848' WHERE "qweqweqwe"."id" = 1[0m
+  [1m[35mLegacy::Service Load (0.2ms)[0m  SELECT "qweqweqwe".* FROM "qweqweqwe" WHERE "qweqweqwe"."id" = ? ORDER BY "qweqweqwe"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "qweqweqwe" SET "updated_at" = '2015-06-15 13:59:21.730002' WHERE "qweqweqwe"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "qweqweqwe" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mLegacy::Service Load (0.1ms)[0m  [1mSELECT "qweqweqwe".* FROM "qweqweqwe" WHERE "qweqweqwe"."id" = ? ORDER BY "qweqweqwe"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mLegacy::Service::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "legacy_service_translations" WHERE ("legacy_service_translations"."locale" = 'ru' AND "legacy_service_translations"."legacy_service_id" = 1) LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "legacy_service_translations" ("created_at", "legacy_service_id", "locale", "name", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["legacy_service_id", 1], ["locale", "ru"], ["name", "asd"], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mLegacy::Service Load (0.2ms)[0m  SELECT "qweqweqwe".* FROM "qweqweqwe" WHERE "qweqweqwe"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "qweqweqwe" SET "updated_at" = '2015-06-15 13:59:21.742387' WHERE "qweqweqwe"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "qweqweqwe" SET "updated_at" = '2015-06-15 13:59:21.744257' WHERE "qweqweqwe"."id" = 1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'fr' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "fr"], ["name", "qwe"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.802503' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.804683' WHERE "products"."id" = 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "en"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.807683' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.808700' WHERE "products"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" IS NULL AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mProduct::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" = 1) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.826066' WHERE "products"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.826568' WHERE "products"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36m (1.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.838175' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.838728' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.848189' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.849853' WHERE "products"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."id" != 1 AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "product_translations" SET "name" = ?, "description" = ?, "updated_at" = ? WHERE "product_translations"."id" = 1[0m  [["name", "qwe"], ["description", "asd"], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.862080' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.863042' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'fr' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mProduct::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "fr"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.881723' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.882699' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "product_id", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "ru"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.884273' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.885125' WHERE "products"."id" = 1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "product_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "en"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.886590' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.887606' WHERE "products"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "en"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.894777' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.895931' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.907774' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.910096' WHERE "products"."id" = 1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."id" != 1 AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "product_translations" SET "name" = ?, "updated_at" = ? WHERE "product_translations"."id" = 1[0m  [["name", "qwe"], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.915362' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.915926' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Load (0.1ms)[0m  SELECT "product_translations".* FROM "product_translations" WHERE "product_translations"."product_id" = ? AND "product_translations"."locale" = 'ru' ORDER BY "product_translations"."id" ASC LIMIT 1  [["product_id", 1]]
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.923409' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.924414' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "product_translations" WHERE "product_translations"."product_id" = ?  [["product_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" = 1) LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "en"], ["name", "qwe"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.929573' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.930116' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "product_translations" WHERE "product_translations"."product_id" = ?  [["product_id", 1]]
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mProduct::Translation Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'en' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.938356' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.939352' WHERE "products"."id" = 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "en"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.942305' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.943979' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "product_translations" WHERE "product_translations"."product_id" = ?  [["product_id", 1]]
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.2ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.950320' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.2ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.951280' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "product_translations" WHERE "product_translations"."product_id" = ?  [["product_id", 1]]
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mProduct::Translation Exists (0.1ms)[0m  SELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.966387' WHERE "products"."id" = 1
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.967388' WHERE "products"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mProduct::Translation Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "product_translations" WHERE ("product_translations"."locale" = 'ru' AND "product_translations"."product_id" IS NULL) LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "products" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "product_translations" ("created_at", "locale", "name", "product_id", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00], ["locale", "ru"], ["name", "asd"], ["product_id", 1], ["updated_at", Mon, 15 Jun 2015 13:59:21 UTC +00:00]]
+  [1m[35mProduct Load (0.1ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 1 LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.974311' WHERE "products"."id" = 1[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? ORDER BY "products"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "products" SET "updated_at" = '2015-06-15 13:59:21.975778' WHERE "products"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.7ms)[0m  [1mrollback transaction[0m

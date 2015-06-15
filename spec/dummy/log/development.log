@@ -1,0 +1,86 @@
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateAdminCatalogs (20130123145651)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "admin_catalogs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20130123145651"]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+Migrating to CreateFoodRestaurants (20130123151746)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "restaurants" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20130123151746"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateLegacyServices (20130123151803)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "qweqweqwe" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20130123151803"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateProducts (20130123151814)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20130123151814"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Migrating to CreateAdminCatalogTranslations (20130123200420)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "admin_catalog_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "locale" varchar(255) NOT NULL, "admin_catalog_id" integer, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.1ms)[0m  CREATE INDEX "index_admin_catalog_translations_on_admin_catalog_id" ON "admin_catalog_translations" ("admin_catalog_id")
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_admin_catalog_translations_on_locale" ON "admin_catalog_translations" ("locale")[0m
+  [1m[35m (1.1ms)[0m  CREATE UNIQUE INDEX "zakujogdjaznuhjqdbwz" ON "admin_catalog_translations" ("locale", "admin_catalog_id")
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20130123200420"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Migrating to CreateFoodRestaurantTranslations (20130123200525)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "food_restaurant_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "locale" varchar(255) NOT NULL, "food_restaurant_id" integer, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.3ms)[0m  [1mCREATE INDEX "index_food_restaurant_translations_on_food_restaurant_id" ON "food_restaurant_translations" ("food_restaurant_id")[0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_food_restaurant_translations_on_locale" ON "food_restaurant_translations" ("locale")
+  [1m[36m (0.6ms)[0m  [1mCREATE UNIQUE INDEX "nqeqdgkmyeuwwgwyxdui" ON "food_restaurant_translations" ("locale", "food_restaurant_id")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20130123200525"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Migrating to CreateLegacyServiceTranslations (20130123200536)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "legacy_service_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "locale" varchar(255) NOT NULL, "legacy_service_id" integer, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.3ms)[0m  CREATE INDEX "index_legacy_service_translations_on_legacy_service_id" ON "legacy_service_translations" ("legacy_service_id")
+  [1m[36m (0.1ms)[0m  [1mCREATE INDEX "index_legacy_service_translations_on_locale" ON "legacy_service_translations" ("locale")[0m
+  [1m[35m (0.6ms)[0m  CREATE UNIQUE INDEX "qtyhfsoamlrpjmayrkyp" ON "legacy_service_translations" ("locale", "legacy_service_id")
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20130123200536"]]
+  [1m[35m (2.4ms)[0m  commit transaction
+Migrating to CreateProductTranslations (20130123200543)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "product_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "locale" varchar(255) NOT NULL, "product_id" integer, "name" varchar(255), "description" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.3ms)[0m  [1mCREATE INDEX "index_product_translations_on_product_id" ON "product_translations" ("product_id")[0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_product_translations_on_locale" ON "product_translations" ("locale")
+  [1m[36m (0.5ms)[0m  [1mCREATE UNIQUE INDEX "index_product_translations_on_locale_and_product_id" ON "product_translations" ("locale", "product_id")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20130123200543"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.7ms)[0m  [1mDROP TABLE "admin_catalog_translations"[0m
+  [1m[35m (1.3ms)[0m  CREATE TABLE "admin_catalog_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "locale" varchar(255) NOT NULL, "admin_catalog_id" integer, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.1ms)[0m  [1mCREATE INDEX "index_admin_catalog_translations_on_admin_catalog_id" ON "admin_catalog_translations" ("admin_catalog_id")[0m
+  [1m[35m (1.1ms)[0m  CREATE UNIQUE INDEX "zakujogdjaznuhjqdbwz" ON "admin_catalog_translations" ("locale", "admin_catalog_id")
+  [1m[36m (1.0ms)[0m  [1mCREATE INDEX "index_admin_catalog_translations_on_locale" ON "admin_catalog_translations" ("locale")[0m
+  [1m[35m (1.2ms)[0m  DROP TABLE "admin_catalogs"
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "admin_catalogs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.2ms)[0m  DROP TABLE "food_restaurant_translations"
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "food_restaurant_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "locale" varchar(255) NOT NULL, "food_restaurant_id" integer, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.0ms)[0m  CREATE INDEX "index_food_restaurant_translations_on_food_restaurant_id" ON "food_restaurant_translations" ("food_restaurant_id")
+  [1m[36m (1.3ms)[0m  [1mCREATE UNIQUE INDEX "nqeqdgkmyeuwwgwyxdui" ON "food_restaurant_translations" ("locale", "food_restaurant_id")[0m
+  [1m[35m (1.3ms)[0m  CREATE INDEX "index_food_restaurant_translations_on_locale" ON "food_restaurant_translations" ("locale")
+  [1m[36m (1.2ms)[0m  [1mDROP TABLE "legacy_service_translations"[0m
+  [1m[35m (1.3ms)[0m  CREATE TABLE "legacy_service_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "locale" varchar(255) NOT NULL, "legacy_service_id" integer, "name" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (2.8ms)[0m  [1mCREATE INDEX "index_legacy_service_translations_on_legacy_service_id" ON "legacy_service_translations" ("legacy_service_id")[0m
+  [1m[35m (3.0ms)[0m  CREATE UNIQUE INDEX "qtyhfsoamlrpjmayrkyp" ON "legacy_service_translations" ("locale", "legacy_service_id")
+  [1m[36m (1.2ms)[0m  [1mCREATE INDEX "index_legacy_service_translations_on_locale" ON "legacy_service_translations" ("locale")[0m
+  [1m[35m (1.2ms)[0m  DROP TABLE "product_translations"
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "product_translations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "locale" varchar(255) NOT NULL, "product_id" integer, "name" varchar(255), "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX "index_product_translations_on_locale_and_product_id" ON "product_translations" ("locale", "product_id")
+  [1m[36m (1.2ms)[0m  [1mCREATE INDEX "index_product_translations_on_locale" ON "product_translations" ("locale")[0m
+  [1m[35m (1.2ms)[0m  CREATE INDEX "index_product_translations_on_product_id" ON "product_translations" ("product_id")
+  [1m[36m (1.0ms)[0m  [1mDROP TABLE "products"[0m
+  [1m[35m (1.8ms)[0m  CREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.6ms)[0m  [1mDROP TABLE "qweqweqwe"[0m
+  [1m[35m (1.6ms)[0m  CREATE TABLE "qweqweqwe" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (1.5ms)[0m  [1mDROP TABLE "restaurants"[0m
+  [1m[35m (1.1ms)[0m  CREATE TABLE "restaurants" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"

@@ -5,6 +5,8 @@ require 'pp'
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../dummy/config/environment", __FILE__)
 
+I18n.config.available_locales_set.add :ru
+I18n.config.available_locales_set.add :en
 I18n.default_locale = :ru
 I18n.locale         = :en
 

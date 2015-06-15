@@ -112,7 +112,7 @@ describe Product::Translation do
         :name       => 'asd'
       )
       expect {
-        Product::Translation.includes(:product).all
+        Product::Translation.includes(:product)
       }.to_not raise_error
     end
   end
