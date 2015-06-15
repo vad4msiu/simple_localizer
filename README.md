@@ -21,7 +21,7 @@ end
 ## Create migration for translations
 
 ```console
-bundle exec rails generate simple_localizer:create_migration product name:string
+bundle exec rails generate simple_localizer:install product name:string
 ```
 
 ## Usage
