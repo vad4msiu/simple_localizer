@@ -57,7 +57,7 @@ module SimpleLocalizer
           translation = send("#{attr}_#{locale}")
 
           if I18n.respond_to?(:fallbacks) && translation.blank?
-            fallbacks_locales = I18n.fallbacks[locale].map(&:to_s)
+            fallbacks_locales = I18n.fallbacks[locale].dup.map(&:to_s)
 
             while translation.blank? && fallbacks_locales.present? do
               locale = fallbacks_locales.shift
