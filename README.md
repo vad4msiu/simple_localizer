@@ -43,7 +43,8 @@ puts product.name_en # => d
 I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
 I18n.fallbacks[:ru] = [:ru, :en, :fr]
 product = Product.create! :name_fr => 'e', :name_ru => nil, :name_en => nil
-puts product.name_ru # => e
+puts product.name_ru # => nil
+puts product.name # => e
 ```
 
 ## Supported locales
@@ -71,3 +72,12 @@ sk sl sm sn so sq sr ss st su
 sv sw ta te tg th ti tj tk tl
 tn to tp tr ts tt tw uk ul ur
 uz vi vo wo xh yo zh zu
+
+
+## Testing
+
+```
+bundle
+rake copy_db_config # создаст конфиг для БД в spec/internal/config/database.yml
+rake
+```

@@ -176,11 +176,17 @@ describe Product do
   it "должен отдать с fallback локалью" do
     I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
     I18n.fallbacks[:ru] = [:ru, :en, :fr]
-    Product.create!(
+    product = Product.create!(
       :name_fr => 'asd',
       :name_ru => nil,
       :name_en => nil
-    ).name_ru.should == 'asd'
+    )
+
+    product.name_ru.should == nil
+
+    SimpleLocalizer.with_locale(:fr) do
+      product.name.should == 'asd'
+    end
   end
 
   it "должен создать перевод с локалью I18n.default_locale" do

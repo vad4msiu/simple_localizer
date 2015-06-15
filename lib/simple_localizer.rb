@@ -54,7 +54,18 @@ module SimpleLocalizer
       translated_attribute_names.each do |attr|
         define_method attr do
           locale = SimpleLocalizer.read_locale
-          send("#{attr}_#{locale}")
+          translation = send("#{attr}_#{locale}")
+
+          if I18n.respond_to?(:fallbacks) && translation.blank?
+            fallbacks_locales = I18n.fallbacks[locale].map(&:to_s)
+
+            while translation.blank? && fallbacks_locales.present? do
+              locale = fallbacks_locales.shift
+              translation = send("#{attr}_#{locale}")
+            end
+          end
+
+          translation
         end
 
         define_method "#{attr}=" do |value|
@@ -70,14 +81,6 @@ module SimpleLocalizer
             translation = translations.detect { |translation|
               translation.locale == locale
             }
-
-            if I18n.respond_to?(:fallbacks) && translation.try(attr).nil?
-              fallbacks_locales = I18n.fallbacks[locale].map(&:to_s)
-
-              translation = translations.detect { |translation|
-                fallbacks_locales.include?(translation.locale) && translation.send(attr).present?
-              }
-            end
 
             translation.try(attr)
           end

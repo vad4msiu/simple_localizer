@@ -141,4 +141,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rack>, [">= 0"])
   end
 end
-
