@@ -26,3 +26,5 @@ pkg
 # ctags
 .tags
 .tags_sorted_by_file
+.ruby-version
+spec/dummy/log/test.log
