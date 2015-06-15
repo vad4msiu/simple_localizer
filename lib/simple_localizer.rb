@@ -69,7 +69,7 @@ module SimpleLocalizer
         end
 
         define_method "#{attr}=" do |value|
-          locale = SimpleLocalizer.read_locale || I18n.default_locale.to_s
+          locale = SimpleLocalizer.read_locale
           send("#{attr}_#{locale}=", value)
         end
 

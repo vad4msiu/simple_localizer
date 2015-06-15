@@ -35,12 +35,13 @@ puts product.name_en # => b
 product.update_attributes :name_en => 'c'
 puts product.name_en # => c
 
-I18n.default_locale = :en
+I18n.locale = :en
 product = Product.create! :name => 'd'
 puts product.name # => d
 puts product.name_en # => d
 
 I18n::Backend::Simple.include(I18n::Backend::Fallbacks)
+I18n.locale = :ru
 I18n.fallbacks[:ru] = [:ru, :en, :fr]
 product = Product.create! :name_fr => 'e', :name_ru => nil, :name_en => nil
 puts product.name_ru # => nil

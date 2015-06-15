@@ -189,10 +189,19 @@ describe Product do
     end
   end
 
-  it "должен создать перевод с локалью I18n.default_locale" do
+  it "должен создать перевод с локалью I18n.locale" do
     Product.create!(
       :name => 'asd'
-    ).translations.first.locale == I18n.default_locale
+    ).translations.first.locale == I18n.locale
+  end
+
+  context 'когда I18n.locale не установлен' do
+    it "должен создать перевод с локалью I18n.default_locale" do
+      Product.create!(
+        :name => 'asd'
+      ).translations.first.locale == I18n.default_locale
+    end
+
   end
 end
 
