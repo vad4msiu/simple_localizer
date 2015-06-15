@@ -78,6 +78,6 @@ uz vi vo wo xh yo zh zu
 
 ```
 bundle
-rake copy_db_config # создаст конфиг для БД в spec/internal/config/database.yml
+rake db:migrate
 rake
 ```
