@@ -80,6 +80,16 @@ describe SimpleLocalizer do
       product.name.should == 'qwe'
     end
   end
+
+  it "локаль с дефисом" do
+    product = nil
+    SimpleLocalizer.with_locale(:'zh-CN') do
+      product = Product.create!(
+        :name => 'asd'
+      )
+    end
+    product.name_zh_cn.should == 'asd'
+  end
 end
 
 describe Product::Translation do
