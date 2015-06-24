@@ -81,6 +81,14 @@ describe SimpleLocalizer do
     end
   end
 
+  it "устанавливает I18n.locale, если пытаемся использовать неподдерживаемую локаль" do
+    I18n.with_locale(:ru) do
+      SimpleLocalizer.with_locale(:'id-ID') do
+        SimpleLocalizer.read_locale.should == 'ru'
+      end
+    end
+  end
+
   it "локаль с дефисом" do
     product = nil
     SimpleLocalizer.with_locale(:'zh-CN') do

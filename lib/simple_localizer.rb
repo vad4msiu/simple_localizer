@@ -106,9 +106,10 @@ module SimpleLocalizer
   end
 
   def with_locale(new_locale, &block)
+    pre_locale = Thread.current[:simple_localizer_locale]
+
     begin
-      pre_locale = Thread.current[:simple_localizer_locale]
-      set_locale(new_locale)
+      set_locale(new_locale) || set_locale(I18n.locale) || set_locale(I18n.default_locale)
       yield
     ensure
       set_locale(pre_locale)
@@ -124,7 +125,8 @@ module SimpleLocalizer
   module_function
 
   def set_locale(locale)
-    Thread.current[:simple_localizer_locale] = locale && locale.to_s
+    return if !locale.presence || !supported_locales.include?(locale.to_s)
+    Thread.current[:simple_localizer_locale] = locale.to_s
   end
 
 end
