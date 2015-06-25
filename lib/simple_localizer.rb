@@ -57,16 +57,19 @@ module SimpleLocalizer
           locale = SimpleLocalizer.read_locale
           translation = send("#{attr}_#{locale.underscore}")
 
-          if I18n.respond_to?(:fallbacks) && translation.blank?
-            fallbacks_locales = I18n.fallbacks[locale].dup.map(&:to_s)
+          translation && translation.presence || fallback_translation_for(locale)
+        end
 
-            while translation.blank? && fallbacks_locales.present? do
-              locale = fallbacks_locales.shift.underscore
-              translation = send("#{attr}_#{locale}")
-            end
+        def fallback_translation_for(locale)
+          return unless I18n.respond_to?(:fallbacks)
+
+          fallbacks_locales = (I18n.fallbacks[locale].dup.map(&:to_s) + SimpleLocalizer.supported_locales.dup).uniq
+
+          while fallbacks_locales.present? do
+            locale = fallbacks_locales.shift.underscore
+            translation = send("#{attr}_#{locale}")
+            return translation if translation && translation.presence
           end
-
-          translation
         end
 
         define_method "#{attr}=" do |value|
