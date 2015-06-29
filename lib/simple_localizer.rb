@@ -71,7 +71,9 @@ module SimpleLocalizer
 
           sorted_translations.each do |t|
             return t.send(attr) if t.send(attr).present?
-          end; nil
+          end
+
+          return nil
         end
 
         define_method "#{attr}=" do |value|
@@ -111,7 +113,7 @@ module SimpleLocalizer
   end
 
   def with_locale(new_locale, &block)
-    pre_locale = Thread.current[:simple_localizer_locale]
+    pre_locale = read_locale
 
     begin
       set_locale(new_locale) || set_locale(I18n.locale) || set_locale(I18n.default_locale)
@@ -130,7 +132,7 @@ module SimpleLocalizer
   module_function
 
   def set_locale(locale)
-    return if !locale.presence || !supported_locales.include?(locale.to_s)
+    return if supported_locales.exclude?(locale.to_s)
     Thread.current[:simple_localizer_locale] = locale.to_s
   end
 
