@@ -80,6 +80,24 @@ describe SimpleLocalizer do
       product.name.should == 'qwe'
     end
   end
+
+  it "устанавливает I18n.locale, если пытаемся использовать неподдерживаемую локаль" do
+    I18n.with_locale(:ru) do
+      SimpleLocalizer.with_locale(:'id-ID') do
+        SimpleLocalizer.read_locale.should == 'ru'
+      end
+    end
+  end
+
+  it "локаль с дефисом" do
+    product = nil
+    SimpleLocalizer.with_locale(:'zh-CN') do
+      product = Product.create!(
+        :name => 'asd'
+      )
+    end
+    product.name_zh_cn.should == 'asd'
+  end
 end
 
 describe Product::Translation do
